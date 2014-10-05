@@ -1,0 +1,26 @@
+svg {
+    border: 1px solid black;
+}
+
+.provincias path {
+    stroke-width: 2;
+    stroke: blue;
+    fill: lightBlue;
+}
+
+.provincias path:hover { fill: lightGreen; }
+
+.comarcas path {
+    stroke-width: 2;
+    stroke: blue;
+    fill: lightBlue;
+}
+
+.comarcas path:hover { fill: green; }
+
+.colegios circle {
+    fill: yellow;
+    stroke: orange;
+    stroke-width: 1;
+    pointer-events: none;
+}
